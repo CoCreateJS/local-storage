@@ -1,3 +1,12 @@
+## [1.16.6](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.16.5...v1.16.6) (2026-07-11)
+
+
+### Bug Fixes
+
+* bump package versions ([19be61a](https://github.com/CoCreate-app/CoCreate-local-storage/commit/19be61a8f115b1c446504bf544b07af48aa11c6b))
+* removed post install and add add packages to apprved list ([6af9127](https://github.com/CoCreate-app/CoCreate-local-storage/commit/6af91274c2b4e284f77feb1b2adaf0d4defcb9f2))
+* semantic version handling ([a026cc4](https://github.com/CoCreate-app/CoCreate-local-storage/commit/a026cc4e6cc04e411849fc6acd4e47ffb96389e7))
+
 ## [1.16.5](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.16.4...v1.16.5) (2026-03-05)
 
 
