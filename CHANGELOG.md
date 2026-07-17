@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.16.6...v1.17.0) (2026-07-17)
+
+
+### Features
+
+* update automated workflow and release configuration for improved semantic release handling ([f0fa4af](https://github.com/CoCreate-app/CoCreate-local-storage/commit/f0fa4afd1b9e595da03df501e0f2d090f9b4cec9))
+
 ## [1.16.6](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.16.5...v1.16.6) (2026-07-11)
 
 
