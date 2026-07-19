@@ -1,3 +1,10 @@
+## [1.17.2](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.17.1...v1.17.2) (2026-07-19)
+
+
+### Bug Fixes
+
+* set default branch to main ([e296fed](https://github.com/CoCreate-app/CoCreate-local-storage/commit/e296fed48223953b50c74dca542b75b9e4d2f123))
+
 ## [1.17.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.17.0...v1.17.1) (2026-07-17)
 
 
