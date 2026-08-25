@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoCreate-app/CoCreate-local-storage.git"
+    "url": "git+https://gitlab.com/cocreatejs/CoCreate-local-storage.git"
   },
   "author": "CoCreate LLC",
   "license": "MIT",
