@@ -66,9 +66,9 @@
   "author": "CoCreate LLC",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CoCreate-app/CoCreate-local-storage/issues"
+    "url": "https://github.com/CoCreateJS/CoCreate-local-storage/issues"
   },
-  "homepage": "https://cocreate.app/docs/local-storage",
+  "homepage": "https://CoCreateJS.com/docs/local-storage",
   "funding": {
     "type": "GitHub Sponsors ❤",
     "url": "https://github.com/sponsors/CoCreate-app"
