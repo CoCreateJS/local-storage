@@ -13,7 +13,7 @@ Fork the [project on Github](https://github.com/CoCreate-app/CoCreate-local-stor
 ```
 git local-storage https://github.com/contributor/CoCreate-local-storage.git
 cd CoCreate-local-storage
-git remote add upstream https://gitlab.com/cocreatejs/CoCreate-local-storage.git
+git remote add upstream https://github.com/cocreatejs/CoCreate-local-storage.git
 ```
 
 ## Create a Topic Branch
