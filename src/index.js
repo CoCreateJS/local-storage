@@ -4,6 +4,11 @@ import Actions from "@cocreate/actions";
 let support = true;
 const storage = new Map();
 
+/**
+ *
+ * @public
+ * @environment client
+ */
 function init() {
     var elements = document.querySelectorAll(
         "[localstorage-set], [localstorage-get], [sessionstorage-set], [sessionstorage-get]"
@@ -36,6 +41,8 @@ function init() {
 /**
  * Initializes a collection of elements.
  * @param {Array<Element>} elements - An array of elements to be initialized.
+ * @public
+ * @environment client
  */
 function initElements(elements) {
     for (let element of elements) initElement(element);
@@ -44,6 +51,8 @@ function initElements(elements) {
 /**
  * Initializes a single element.
  * @param {Element} element - The element to initialize. This function expects an 'Element' type.
+ * @public
+ * @environment client
  */
 function initElement(element) {
     const types = ["localstorage", "sessionstorage"];
@@ -104,6 +113,8 @@ function initElement(element) {
  * @param key
  * @param type - 'localstorage' or 'sessionstorage'
  * @return { Mixed } The value associated with the key or undefined if not found.
+ * @public
+ * @environment client
  */
 function getItem(key, type = "localstorage") {
     if (support) {
@@ -117,6 +128,8 @@ function getItem(key, type = "localstorage") {
  * @param key - key name to store the value under
  * @param value - value to store
  * @param type - 'localstorage' or 'sessionstorage'
+ * @public
+ * @environment client
  */
 function setItem(key, value, type = "localstorage") {
     try {
@@ -161,6 +174,8 @@ function setItem(key, value, type = "localstorage") {
 /**
  * @param key - The key name to delete from the storage
  * @param type - 'localstorage' or 'sessionstorage'
+ * @public
+ * @environment client
  */
 function removeItem(key, type = "localstorage") {
     if (support) {
@@ -175,6 +190,8 @@ function removeItem(key, type = "localstorage") {
  * @param action
  *
  * @return { undefined } No return
+ * @public
+ * @environment client
  */
 async function runStorage(action) {
     const form = action.form;
@@ -219,18 +236,33 @@ async function runStorage(action) {
     );
 }
 
+/**
+ *
+ * @public
+ * @environment client
+ */
 const localStorage = {
     getItem: (key) => getItem(key, "localstorage"),
     setItem: (key, value) => setItem(key, value, "localstorage"),
     removeItem: (key) => removeItem(key, "localstorage")
 };
 
+/**
+ *
+ * @public
+ * @environment client
+ */
 const sessionStorage = {
     getItem: (key) => getItem(key, "sessionstorage"),
     setItem: (key, value) => setItem(key, value, "sessionstorage"),
     removeItem: (key) => removeItem(key, "sessionstorage")
 };
 
+/**
+ *
+ * @public
+ * @environment client
+ */
 function checkSupport() {
     // Check if the browser supports Web Storage.
     if (!("localStorage" in window) || !("sessionStorage" in window)) {
@@ -311,3 +343,50 @@ export default {
     localStorage,
     sessionStorage
 };
+
+/**
+ *
+ * @name realtime
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ * A Simple component similar to CoCreate-input & CoCreate-fetch which Save and fetch data for inputs, textarea, selects from localstorage. Easily configured using HTML5 attributes and/or JavaScript API
+ *
+ * @module local-storage
+ * @environment client
+ */
+
+/**
+ * Declarative selectors recognized by this module.
+ *
+ * @name declarative-selectors
+ * @kind member
+ * @selectors
+ * @environment client
+ * @example
+ * ```json
+ * [
+ *   "[localstorage-set], [sessionstorage-set]"
+ * ]
+ * ```
+ */
+
+/**
+ * Declarative actions supported or registered by this module.
+ *
+ * @name declarative-actions
+ * @kind member
+ * @actions
+ * @environment client
+ * @example
+ * ```json
+ * [
+ *   {
+ *     "name": "localStorage"
+ *   }
+ * ]
+ * ```
+ */

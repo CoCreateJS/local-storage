@@ -15,45 +15,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "cocreate": {
-    "environment": [
-      "client"
-    ],
-    "interface": {
-      "schemaVersion": 1,
-      "summary": "A Simple component similar to CoCreate-input & CoCreate-fetch which Save and fetch data for inputs, textarea, selects from localstorage. Easily configured using HTML5 attributes and/or JavaScript API",
-      "source": "src/index.js",
-      "declarative": {
-        "selectors": [
-          "[localstorage-set], [sessionstorage-set]"
-        ],
-        "attributes": [
-          {
-            "name": "realtime"
-          }
-        ],
-        "actions": [
-          {
-            "name": "localStorage"
-          }
-        ]
-      },
-      "api": {
-        "exports": [
-          "checkSupport",
-          "getItem",
-          "init",
-          "initElement",
-          "initElements",
-          "localStorage",
-          "removeItem",
-          "runStorage",
-          "sessionStorage",
-          "setItem"
-        ]
-      }
-    }
-  },
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "build": "webpack --mode=production --config webpack.config.js",
