@@ -1,3 +1,21 @@
+# [1.18.0](https://github.com/CoCreateJS/local-storage/compare/v1.17.2...v1.18.0) (2026-11-02)
+
+
+### Bug Fixes
+
+* add Deno specific entries to .gitignore ([b4e5c6b](https://github.com/CoCreateJS/local-storage/commit/b4e5c6bb73c72db201fbe8f4a513c28d49d95aa0))
+* bump [@cocreate](https://github.com/cocreate) dependencies ([f1b10dc](https://github.com/CoCreateJS/local-storage/commit/f1b10dc1e20b26425fd1c87ae121be13a9909548))
+* bump versions ([1d11cce](https://github.com/CoCreateJS/local-storage/commit/1d11cceb536755d028faa2b257ac3b7fe4886511))
+* bump versions ([3c648b3](https://github.com/CoCreateJS/local-storage/commit/3c648b3b6518f0a54a8f4f926d4b4928222c1fb3))
+* remove trailing slash from node_modules entry in .gitignore ([a584284](https://github.com/CoCreateJS/local-storage/commit/a584284860f9a673bb1961ef7adb78398352c87e))
+* update git url ([31db0c8](https://github.com/CoCreateJS/local-storage/commit/31db0c89e6739c716710a11615d0078f5ebb7b36))
+* update GitHub Actions to use latest versions and sync package.json description ([037c5ff](https://github.com/CoCreateJS/local-storage/commit/037c5ff5b096d9388b1bbc44e84cb4b7063009da))
+
+
+### Features
+
+* replace uuid import and usage with utils ([18467f1](https://github.com/CoCreateJS/local-storage/commit/18467f10c8cd9af320fa41f0c959121a676cb603))
+
 ## [1.17.2](https://github.com/CoCreateJS/CoCreate-local-storage/compare/v1.17.1...v1.17.2) (2026-07-19)
 
 
