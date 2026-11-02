@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/CoCreateJS/local-storage/compare/v1.18.0...v2.0.0) (2026-11-02)
+
+
+### chore
+
+* record package identity migration as breaking ([b3b46ab](https://github.com/CoCreateJS/local-storage/commit/b3b46abc792c3e9b0802dc7869682d4da2554f8c))
+
+
+### BREAKING CHANGES
+
+* Consumers must install @cocreate/local-storage and use the renamed CoCreateJS repository identity; the previous package and repository identities are no longer supported.
+
 # [1.18.0](https://github.com/CoCreateJS/local-storage/compare/v1.17.2...v1.18.0) (2026-11-02)
 
 
