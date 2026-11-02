@@ -22,17 +22,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cocreatejs/CoCreate-local-storage.git"
+    "url": "git+https://github.com/CoCreateJS/local-storage.git"
   },
   "author": "CoCreate LLC",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CoCreateJS/CoCreate-local-storage/issues"
+    "url": "https://github.com/CoCreateJS/local-storage/issues"
   },
   "homepage": "https://CoCreateJS.com/docs/local-storage",
   "funding": {
     "type": "GitHub Sponsors ❤",
-    "url": "https://github.com/sponsors/CoCreate-app"
+    "url": "https://github.com/sponsors/CoCreateJS"
   },
   "main": "./src/index.js",
   "dependencies": {
