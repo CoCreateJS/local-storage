@@ -347,8 +347,7 @@ export default {
 /**
  *
  * @name realtime
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
