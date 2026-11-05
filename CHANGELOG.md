@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/CoCreateJS/local-storage/compare/v2.0.0...v2.0.1) (2026-11-05)
+
+
+### Bug Fixes
+
+* upgrade CoCreate dependencies to v2 ([1681f50](https://github.com/CoCreateJS/local-storage/commit/1681f50e5fad50aa781a3f44dec47b5defe2fa60))
+
 # [2.0.0](https://github.com/CoCreateJS/local-storage/compare/v1.18.0...v2.0.0) (2026-11-02)
 
 
